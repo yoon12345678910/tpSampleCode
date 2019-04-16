@@ -22,7 +22,7 @@ v.0.2 테스트 버전 코드
 | bodySize | String \|\| Object | 해당 팝업의 layout 크기 | ‘’ |
 | contentSize | String \|\| Object | 해당 팝업 내부의 content 영역 크기 | ‘’ |
 | appendLocation | String \|\| jQuery Element |해당 팝업이 붙여지는 위치 | ‘body’ |
-| ableFocusElements | String | ※ 현재 버전에서 이 값을 설정하면, 기본 설정 값은 유지되지 않는다. | '.Dropdown, .Dropdown-head, input, textarea, button:not(.PopupHead .BtnClose)' |
+| ableFocusElements | String | 해당 팝업에서 포커스가 유지되는 영역 ※ 현재 버전에서 이 값을 설정하면, 기본 설정 값은 유지되지 않는다. | '.Dropdown, .Dropdown-head, input, textarea, button:not(.PopupHead .BtnClose)' |
 | onClick | Object | 해당 팝업의 버튼 설정 | {} |
 | confirmText | String | 확인버튼의 텍스트 | ‘확인’ |
 | confirmStyle | String | 확인버튼의 버튼 스타일 | ‘’ |
