@@ -1,7 +1,7 @@
-### qPopup   
+## qPopup   
 v.0.2 테스트 버전 코드
 
-#### 의존 파일
+### 의존 파일
  
 - js: qSales_advisor, jQuery
 - css: qSales_advisor
@@ -10,9 +10,9 @@ v.0.2 테스트 버전 코드
 - nicescroll: 스크롤 jquery.nicescroll
 
 
-#### $.qPopup.create(contentHTML, [options])
-- contentHTML < String || jQuery element > jQuery element를 넣어주면, jQuery이벤트 및 기능 유지
-- options < PlainObject > 
+### $.qPopup.create(contentHTML, [options])
+- contentHTML < String || jQuery element >
+- options < Object > 
 
 | option | type | Description | Default value |
 | :--- | :--- | :--- | :--- |
@@ -38,7 +38,7 @@ v.0.2 테스트 버전 코드
 | afterDestory | Function | 모든 팝업이 완전히 제거되었을 때, 정의한 함수 실행 | function () {} |
 
 
-#### sample code 
+### sample code 
 기본 ContentHTML
 ```js
 $.qPopup.create($.qPopup.html.contents.default('대화 내역을 가져오지 못했습니다. <br />다시 시도해 주세요.'), {
